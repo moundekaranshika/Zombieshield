@@ -277,5 +277,5 @@ to handle ambiguous cases — this is noted as a planned upgrade.
 | D1 | Problem + Solution Brief | [add link] |
 | D2 | Technical Demo Video (5–10 min) | [add YouTube link] |
 | D3 | Technical Architecture Document | [add link] |
-| D4 | GitHub Repository (this repo) | [add link] |
+| D4 | GitHub Repository (this repo) | https://github.com/moundekaranshika/Zombieshield |
 | D5 | Pitch Video (5 min) + Slide Deck | [add YouTube link] |

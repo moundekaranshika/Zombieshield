@@ -1,0 +1,101 @@
+api_id,endpoint,method,version,status_hint,auth_type,data_fields,has_pii,in_swagger,last_called_date,daily_avg_calls,created_date,last_modified,owner_git_user,team,environment,last_commit_msg,risk_score,deprecated_flag
+UBI-API-0001,/api/v2/reports/approve,PUT,v3,active,api_key,ifsc_code|employee_id|email|dob,1,1,2026-05-01,9660,2024-09-28,2025-12-10,priya.iyer,Payments,dev,add rate limiting,65,0
+UBI-API-0002,/legacy/v1/neft/update,POST,v1,active,basic_auth,customer_id|balance|name|email,1,1,2026-05-12,7768,2023-08-09,2025-04-10,priya.iyer,Analytics,staging,update docs,60,0
+UBI-API-0003,/internal/v1/credit-score/sync,GET,v3,borderline,mtls,interest_rate,0,1,2026-03-28,153,2022-05-08,2024-11-22,sneha.patel,Analytics,prod,add endpoint,0,0
+UBI-API-0004,/api/v3/employees/create,PATCH,v1,active,none,loan_amount|aadhaar_number|email,1,1,2026-05-05,419,2023-04-13,2026-01-07,arjun.mehta,Analytics,prod,add rate limiting,80,0
+UBI-API-0005,/api/v1/neft/delete,POST,v2,zombie,none,nominee_details|customer_id,1,1,2025-10-14,0,2025-03-01,2025-10-30,rohit.verma,Security,staging,add endpoint,100,1
+UBI-API-0006,/api/v2/credit-score/sync,PATCH,legacy,zombie,jwt,interest_rate|aadhaar_number,1,1,2025-10-22,0,2022-11-08,2024-02-11,sneha.patel,Loans,prod,refactor logic,70,0
+UBI-API-0007,/api/v1/reports/sync,POST,v3,active,basic_auth,account_number|customer_id,1,1,2026-05-22,4662,2024-05-06,2025-01-04,ananya.sharma,Payments,prod,initial commit,60,0
+UBI-API-0008,/legacy/v1/aadhaar/sync,POST,v3,zombie,mtls,nominee_details|credit_score|pan_number|upi_id|branch_id,1,1,2024-12-16,0,2023-10-08,2025-01-28,deepak.nair,Core Banking,prod,merge feature branch,60,1
+UBI-API-0009,/api/v1/transactions/list,DELETE,legacy,active,mtls,name|pan_number|aadhaar_number,1,1,2026-05-19,4192,2023-01-10,2025-08-14,deepak.nair,Digital Channels,staging,fix auth bug,40,0
+UBI-API-0010,/api/v1/ifsc/sync,GET,v1,shadow,none,account_number|customer_id|pan_number|phone|branch_id,1,0,2026-05-13,25,2023-08-04,2023-08-06,vivek.gupta,Loans,prod,merge feature branch,95,0
+UBI-API-0011,/api/v3/ifsc/delete,DELETE,v3,zombie,mtls,credit_score|email|aadhaar_number|address|interest_rate,1,1,2025-12-26,0,2021-09-29,2025-01-07,ananya.sharma,Digital Channels,dev,initial commit,60,0
+UBI-API-0012,/internal/v1/kyc/list,PATCH,v2,active,none,customer_id|upi_id,0,1,2026-05-06,1443,2024-10-18,2024-11-27,deepak.nair,Loans,prod,update docs,40,0
+UBI-API-0013,/legacy/v1/reports/fetch,PATCH,legacy,zombie,oauth2,aadhaar_number|transaction_id|pan_number,1,1,2025-04-05,0,2021-11-14,2021-12-03,sneha.patel,Loans,prod,deprecation notice added,65,0
+UBI-API-0014,/internal/v1/transactions/get,PATCH,v3,zombie,api_key,dob|email|amount|customer_id|pan_number,1,1,2024-06-06,0,2025-02-17,2025-11-14,arjun.mehta,KYC & Compliance,prod,refactor logic,85,0
+UBI-API-0015,/internal/v1/statements/submit,GET,v2,zombie,api_key,name|upi_id|interest_rate,0,1,2025-03-08,0,2022-08-09,2026-02-27,priya.iyer,KYC & Compliance,prod,update docs,45,1
+UBI-API-0016,/internal/v1/branch/delete,GET,legacy,zombie,none,dob|balance|account_number|transaction_id,1,1,2024-08-07,0,2023-11-11,2025-06-07,priya.iyer,Security,prod,fix auth bug,100,0
+UBI-API-0017,/api/v1/payments/sync,GET,v2,zombie,oauth2,interest_rate|email|branch_id|nominee_details|balance,1,1,2025-06-12,0,2025-03-15,2025-05-06,sneha.patel,KYC & Compliance,prod,hotfix prod issue,65,0
+UBI-API-0018,/internal/v1/upi/fetch,POST,v2,borderline,api_key,phone|branch_id,0,1,2026-04-07,1871,2022-05-11,2026-04-16,ananya.sharma,Payments,prod,merge feature branch,25,0
+UBI-API-0019,/legacy/v1/customers/validate,POST,v3,shadow,api_key,amount|address|pan_number|interest_rate,1,0,2026-05-06,18,2021-11-08,2026-03-10,ananya.sharma,Security,prod,merge feature branch,80,0
+UBI-API-0020,/api/v3/employees/verify,PATCH,v1,active,oauth2,name,0,1,2026-05-21,5763,2024-10-22,2026-01-09,sneha.patel,Payments,dev,deprecation notice added,5,0
+UBI-API-0021,/api/v3/upi/fetch,PATCH,v2,active,none,nominee_details|aadhaar_number|dob|balance,1,1,2026-05-13,5509,2023-11-19,2024-01-29,kavya.reddy,Core Banking,dev,add rate limiting,80,0
+UBI-API-0022,/internal/v1/beneficiaries/submit,GET,v2,active,mtls,loan_amount|address|branch_id,0,1,2026-05-18,6311,2023-10-28,2025-09-07,arjun.mehta,Loans,prod,add rate limiting,0,0
+UBI-API-0023,/api/v2/notifications/fetch,PUT,legacy,active,jwt,account_number|address|nominee_details|aadhaar_number|branch_id,1,1,2026-05-10,8475,2025-04-02,2025-07-20,suresh.bose,Digital Channels,prod,refactor logic,50,0
+UBI-API-0024,/legacy/v1/kyc/submit,GET,v1,borderline,oauth2,upi_id|transaction_id|customer_id|pan_number|address,1,1,2026-04-22,1293,2022-11-02,2025-07-02,deepak.nair,Analytics,prod,fix auth bug,45,0
+UBI-API-0025,/legacy/v1/upi/submit,PATCH,v2,shadow,api_key,credit_score|ifsc_code|pan_number|email,1,0,2026-05-12,4,2024-05-14,2025-09-01,ananya.sharma,Analytics,prod,merge feature branch,80,0
+UBI-API-0026,/internal/v1/pan-verify/get,DELETE,legacy,zombie,api_key,loan_amount|interest_rate|transaction_id|employee_id,0,1,2025-09-13,0,2024-02-16,2025-05-21,suresh.bose,Analytics,dev,merge feature branch,45,0
+UBI-API-0027,/api/v2/credit-score/sync,DELETE,v3,shadow,mtls,dob|employee_id,1,0,2026-05-02,6,2023-04-04,2026-04-14,rohit.verma,Security,prod,update response schema,55,0
+UBI-API-0028,/api/v2/payments/update,DELETE,legacy,active,mtls,aadhaar_number|customer_id,1,1,2026-05-11,6983,2021-10-24,2022-12-21,kavya.reddy,Loans,prod,add rate limiting,40,0
+UBI-API-0029,/legacy/v1/reports/approve,GET,v2,shadow,basic_auth,credit_score|account_number|amount|address,1,0,2026-04-22,28,2022-09-11,2024-03-22,kavya.reddy,Analytics,staging,add rate limiting,75,0
+UBI-API-0030,/legacy/v1/accounts/verify,PUT,v1,active,mtls,phone|employee_id|email|account_number,1,1,2026-05-04,7664,2023-11-13,2024-03-30,kavya.reddy,Digital Channels,dev,initial commit,40,0
+UBI-API-0031,/api/v2/customers/delete,DELETE,legacy,active,oauth2,employee_id|transaction_id,0,1,2026-05-16,417,2021-12-03,2024-07-23,arjun.mehta,Analytics,staging,deprecation notice added,5,0
+UBI-API-0032,/internal/v1/customers/export,POST,v2,zombie,mtls,balance,1,1,2025-06-23,0,2022-03-04,2024-10-28,ananya.sharma,Payments,prod,initial commit,60,1
+UBI-API-0033,/internal/v1/aadhaar/validate,PUT,v1,zombie,oauth2,upi_id|name,0,1,2025-04-09,0,2024-09-10,2025-09-29,priya.iyer,KYC & Compliance,prod,update docs,25,0
+UBI-API-0034,/api/v2/loans/fetch,POST,v1,zombie,none,upi_id|name|balance,1,1,2024-09-22,0,2025-02-04,2025-07-28,arjun.mehta,Digital Channels,staging,hotfix prod issue,100,0
+UBI-API-0035,/legacy/v1/branch/get,DELETE,legacy,zombie,oauth2,email|branch_id|phone|loan_amount,0,1,2024-12-03,0,2024-10-14,2025-07-15,sneha.patel,Digital Channels,dev,refactor logic,25,0
+UBI-API-0036,/api/v2/loans/delete,DELETE,legacy,active,api_key,nominee_details|ifsc_code|transaction_id|account_number,1,1,2026-05-18,5676,2023-06-15,2024-11-25,vivek.gupta,Analytics,prod,fix auth bug,65,0
+UBI-API-0037,/api/v3/notifications/approve,PUT,legacy,borderline,basic_auth,loan_amount,0,1,2026-03-20,8141,2022-10-24,2025-06-25,deepak.nair,Core Banking,prod,merge feature branch,20,0
+UBI-API-0038,/legacy/v1/accounts/get,PUT,v3,zombie,api_key,pan_number|address|amount|credit_score,1,1,2025-02-27,0,2024-01-04,2024-10-07,meera.krishnan,Digital Channels,prod,merge feature branch,85,0
+UBI-API-0039,/api/v2/transactions/approve,POST,v3,shadow,oauth2,interest_rate,0,0,2026-04-07,39,2024-10-08,2026-03-29,priya.iyer,Payments,prod,refactor logic,20,0
+UBI-API-0040,/api/v3/transactions/update,PUT,v1,active,api_key,phone|address|account_number,1,1,2026-05-07,8142,2023-02-07,2023-10-23,meera.krishnan,Payments,prod,initial commit,65,0
+UBI-API-0041,/api/v1/accounts/fetch,PUT,v1,active,jwt,employee_id|transaction_id|phone|balance,1,1,2026-05-12,9553,2024-03-22,2024-06-05,sneha.patel,Analytics,staging,add endpoint,50,0
+UBI-API-0042,/api/v1/payments/create,PATCH,v2,active,oauth2,pan_number,1,1,2026-04-30,7481,2024-05-24,2025-06-17,rohit.verma,Digital Channels,staging,update docs,45,0
+UBI-API-0043,/legacy/v1/statements/fetch,DELETE,v2,active,oauth2,upi_id|balance|name|aadhaar_number|loan_amount,1,1,2026-05-19,2664,2024-07-23,2024-10-07,sneha.patel,Security,prod,fix auth bug,45,0
+UBI-API-0044,/api/v1/upi/validate,PATCH,v2,active,jwt,balance|pan_number|address,1,1,2026-04-25,3341,2022-12-12,2026-04-02,sneha.patel,Security,staging,add endpoint,50,0
+UBI-API-0045,/legacy/v1/transactions/sync,POST,v3,active,mtls,dob|email,1,1,2026-05-10,5082,2022-02-28,2024-10-14,rohit.verma,Core Banking,prod,deprecation notice added,40,0
+UBI-API-0046,/legacy/v1/credit-score/sync,PATCH,v2,zombie,jwt,customer_id|balance|branch_id|transaction_id,1,1,2024-07-13,0,2024-10-03,2024-10-24,suresh.bose,KYC & Compliance,prod,add endpoint,70,1
+UBI-API-0047,/api/v3/reports/list,POST,v3,zombie,jwt,employee_id|dob|phone|branch_id|credit_score,1,1,2025-03-31,0,2025-03-22,2025-05-14,rohit.verma,Loans,prod,merge feature branch,70,1
+UBI-API-0048,/api/v3/upi/approve,DELETE,legacy,zombie,oauth2,interest_rate|balance|employee_id|customer_id,1,1,2024-09-14,0,2021-06-21,2025-02-26,arjun.mehta,KYC & Compliance,prod,add endpoint,65,1
+UBI-API-0049,/legacy/v1/upi/list,POST,v2,active,basic_auth,upi_id|credit_score|employee_id,1,1,2026-04-25,8041,2023-01-29,2025-07-14,ananya.sharma,Payments,prod,add rate limiting,60,0
+UBI-API-0050,/api/v1/accounts/submit,PATCH,v2,active,api_key,address|interest_rate,0,1,2026-04-28,2024,2022-02-06,2024-09-08,ananya.sharma,Digital Channels,staging,add endpoint,25,0
+UBI-API-0051,/api/v2/branch/approve,PUT,legacy,borderline,basic_auth,branch_id|credit_score|nominee_details,1,1,2026-04-12,2336,2024-10-28,2026-04-01,deepak.nair,Loans,dev,fix auth bug,60,0
+UBI-API-0052,/api/v1/credit-score/verify,PUT,legacy,zombie,basic_auth,account_number|address|nominee_details,1,1,2024-08-20,0,2024-03-06,2025-02-22,suresh.bose,Digital Channels,staging,fix auth bug,80,0
+UBI-API-0053,/internal/v1/rtgs/validate,PUT,v3,active,api_key,nominee_details|ifsc_code,1,1,2026-05-01,6346,2024-02-12,2026-02-03,deepak.nair,Analytics,staging,initial commit,65,0
+UBI-API-0054,/legacy/v1/payments/validate,GET,legacy,zombie,api_key,nominee_details|transaction_id|name|employee_id|interest_rate,1,1,2025-09-17,0,2021-11-19,2024-07-07,meera.krishnan,Loans,prod,fix auth bug,85,1
+UBI-API-0055,/api/v3/beneficiaries/fetch,DELETE,v1,active,mtls,transaction_id,0,1,2026-05-05,4808,2021-11-06,2023-03-01,meera.krishnan,Loans,prod,refactor logic,0,0
+UBI-API-0056,/api/v2/loans/verify,GET,v1,active,mtls,employee_id,0,1,2026-05-14,5973,2021-10-11,2023-06-03,priya.iyer,Security,prod,initial commit,0,0
+UBI-API-0057,/api/v3/upi/create,POST,v2,zombie,basic_auth,nominee_details|phone|upi_id|interest_rate,1,1,2024-10-01,0,2024-09-25,2025-02-18,rohit.verma,Digital Channels,staging,update docs,80,0
+UBI-API-0058,/api/v3/ifsc/delete,GET,legacy,zombie,jwt,interest_rate|phone|customer_id,0,1,2025-06-11,0,2024-01-10,2024-11-14,vivek.gupta,KYC & Compliance,dev,deprecation notice added,30,0
+UBI-API-0059,/legacy/v1/branch/get,POST,v1,active,jwt,amount|nominee_details|address|interest_rate|account_number,1,1,2026-04-25,4789,2024-11-11,2026-04-03,kavya.reddy,KYC & Compliance,prod,update docs,50,0
+UBI-API-0060,/api/v2/notifications/export,POST,v3,zombie,mtls,upi_id|dob,1,1,2024-11-28,0,2021-08-26,2024-11-24,priya.iyer,Security,prod,initial commit,60,0
+UBI-API-0061,/api/v2/loans/delete,PUT,v3,active,mtls,phone|aadhaar_number|email|amount,1,1,2026-04-25,5649,2024-03-01,2024-12-28,meera.krishnan,Digital Channels,prod,fix auth bug,40,0
+UBI-API-0062,/api/v1/ifsc/get,POST,legacy,active,api_key,interest_rate|amount|customer_id|ifsc_code,0,1,2026-05-13,4395,2025-03-27,2026-04-14,ananya.sharma,KYC & Compliance,dev,add endpoint,25,0
+UBI-API-0063,/internal/v1/rtgs/submit,PUT,v2,active,none,credit_score|account_number,1,1,2026-05-04,7706,2021-10-26,2025-05-19,suresh.bose,Digital Channels,prod,update docs,80,0
+UBI-API-0064,/api/v3/upi/get,POST,v2,zombie,none,address,0,1,2025-01-21,0,2024-01-04,2025-01-17,vivek.gupta,Core Banking,prod,update response schema,60,1
+UBI-API-0065,/internal/v1/upi/fetch,POST,v3,shadow,jwt,credit_score,1,0,2026-05-10,16,2023-12-14,2025-03-13,suresh.bose,Loans,prod,initial commit,65,0
+UBI-API-0066,/api/v3/transactions/submit,PUT,v2,active,basic_auth,balance|ifsc_code|dob,1,1,2026-05-04,449,2025-01-18,2025-11-19,deepak.nair,Core Banking,staging,add endpoint,60,0
+UBI-API-0067,/api/v1/beneficiaries/update,POST,v3,shadow,basic_auth,customer_id|interest_rate,0,0,2026-04-04,1,2022-04-17,2025-08-19,deepak.nair,Digital Channels,prod,update response schema,35,0
+UBI-API-0068,/api/v3/payments/create,PATCH,v3,active,oauth2,name|account_number,1,1,2026-05-24,958,2022-06-10,2023-12-05,priya.iyer,Core Banking,prod,update response schema,45,0
+UBI-API-0069,/api/v2/upi/sync,GET,v1,borderline,mtls,credit_score,1,1,2026-03-27,810,2024-04-15,2024-11-27,vivek.gupta,Analytics,prod,add rate limiting,40,0
+UBI-API-0070,/internal/v1/statements/validate,GET,v2,active,none,ifsc_code|branch_id|name|credit_score,1,1,2026-05-22,9690,2022-03-04,2023-09-18,vivek.gupta,Core Banking,prod,hotfix prod issue,80,0
+UBI-API-0071,/internal/v1/beneficiaries/verify,PATCH,v2,active,basic_auth,employee_id|loan_amount|branch_id,0,1,2026-05-11,6879,2023-12-30,2024-08-19,rohit.verma,Analytics,prod,add rate limiting,20,0
+UBI-API-0072,/api/v3/ifsc/verify,DELETE,v2,borderline,mtls,transaction_id,0,1,2026-03-12,1594,2024-02-15,2024-04-23,kavya.reddy,KYC & Compliance,prod,hotfix prod issue,0,0
+UBI-API-0073,/api/v1/loans/verify,GET,v1,zombie,mtls,email|interest_rate|balance,1,1,2024-12-29,0,2023-06-13,2025-10-26,suresh.bose,Digital Channels,dev,hotfix prod issue,60,1
+UBI-API-0074,/api/v1/statements/fetch,PUT,v2,borderline,oauth2,nominee_details,1,1,2026-03-01,9213,2022-01-26,2024-01-13,meera.krishnan,Payments,prod,refactor logic,45,0
+UBI-API-0075,/api/v3/transactions/delete,PATCH,v3,zombie,api_key,interest_rate|upi_id|account_number|dob,1,1,2025-02-28,0,2021-07-01,2022-07-07,ananya.sharma,Payments,prod,deprecation notice added,85,1
+UBI-API-0076,/internal/v1/rtgs/get,POST,legacy,shadow,mtls,customer_id,0,0,2026-05-02,20,2022-05-07,2024-06-02,meera.krishnan,Payments,staging,merge feature branch,15,0
+UBI-API-0077,/api/v3/reports/fetch,GET,legacy,active,none,phone|balance,1,1,2026-05-05,4575,2023-12-11,2025-02-07,rohit.verma,KYC & Compliance,staging,merge feature branch,80,0
+UBI-API-0078,/api/v2/employees/get,PUT,v1,zombie,jwt,address,0,1,2025-07-12,0,2023-09-06,2025-05-11,suresh.bose,Loans,dev,deprecation notice added,30,0
+UBI-API-0079,/api/v2/statements/update,POST,v2,shadow,oauth2,transaction_id|name|account_number,1,0,2026-04-29,33,2024-06-13,2025-02-03,vivek.gupta,Security,staging,fix auth bug,60,0
+UBI-API-0080,/internal/v1/neft/get,DELETE,legacy,shadow,mtls,branch_id,0,0,2026-04-17,41,2023-09-25,2025-09-20,ananya.sharma,Loans,prod,hotfix prod issue,15,0
+UBI-API-0081,/legacy/v1/statements/get,DELETE,legacy,zombie,none,phone|employee_id|amount,0,1,2024-06-29,0,2023-09-17,2025-03-06,rohit.verma,Loans,prod,update response schema,60,0
+UBI-API-0082,/api/v3/beneficiaries/update,PUT,v3,active,api_key,loan_amount,0,1,2026-05-13,2519,2025-01-30,2026-03-23,rohit.verma,Digital Channels,dev,update response schema,25,0
+UBI-API-0083,/api/v2/transactions/create,PUT,legacy,active,api_key,upi_id|email,0,1,2026-05-03,5279,2024-08-18,2025-07-14,rohit.verma,Payments,staging,refactor logic,25,0
+UBI-API-0084,/api/v2/ifsc/get,DELETE,legacy,shadow,jwt,dob|nominee_details|balance,1,0,2026-04-25,24,2021-09-04,2021-12-29,arjun.mehta,Digital Channels,prod,deprecation notice added,65,0
+UBI-API-0085,/api/v3/loans/submit,GET,legacy,borderline,basic_auth,loan_amount|ifsc_code|employee_id|balance|interest_rate,1,1,2026-03-23,7481,2022-04-23,2022-08-27,suresh.bose,Security,prod,hotfix prod issue,60,0
+UBI-API-0086,/api/v1/beneficiaries/approve,GET,v2,active,basic_auth,balance|pan_number,1,1,2026-05-13,6447,2023-07-22,2025-02-20,vivek.gupta,Loans,dev,add rate limiting,60,0
+UBI-API-0087,/legacy/v1/beneficiaries/submit,PATCH,v3,zombie,none,customer_id|transaction_id|name,0,1,2024-06-15,0,2022-04-22,2024-03-04,meera.krishnan,Security,staging,deprecation notice added,60,0
+UBI-API-0088,/api/v2/neft/delete,DELETE,legacy,shadow,api_key,customer_id|address|interest_rate|ifsc_code|transaction_id,0,0,2026-04-21,24,2023-06-30,2023-08-06,priya.iyer,Security,dev,add endpoint,40,0
+UBI-API-0089,/api/v3/kyc/update,PUT,v1,active,jwt,pan_number|email,1,1,2026-05-03,9885,2023-05-09,2024-02-01,priya.iyer,Core Banking,prod,add endpoint,50,0
+UBI-API-0090,/legacy/v1/payments/create,POST,legacy,zombie,mtls,phone|employee_id|balance|branch_id|amount,1,1,2025-06-28,0,2024-06-16,2025-02-15,deepak.nair,Loans,dev,deprecation notice added,60,0
+UBI-API-0091,/legacy/v1/aadhaar/export,PATCH,v2,shadow,jwt,address|ifsc_code|loan_amount|interest_rate,0,0,2026-03-29,42,2022-11-13,2023-02-27,kavya.reddy,Payments,prod,update docs,25,0
+UBI-API-0092,/legacy/v1/neft/sync,GET,v1,active,mtls,name|address|customer_id|phone|dob,1,1,2026-04-25,5827,2022-09-16,2025-03-27,vivek.gupta,Digital Channels,prod,merge feature branch,40,0
+UBI-API-0093,/api/v1/upi/list,DELETE,v1,active,basic_auth,pan_number|ifsc_code|customer_id,1,1,2026-04-28,2492,2025-02-09,2025-07-30,arjun.mehta,Payments,prod,hotfix prod issue,60,0
+UBI-API-0094,/api/v2/customers/delete,DELETE,v3,active,mtls,credit_score|employee_id,1,1,2026-05-18,8747,2022-04-21,2025-05-18,suresh.bose,Core Banking,prod,initial commit,40,0
+UBI-API-0095,/legacy/v1/transactions/delete,POST,v1,active,oauth2,balance,1,1,2026-05-21,8882,2024-04-07,2025-12-09,deepak.nair,Loans,dev,refactor logic,45,0
+UBI-API-0096,/api/v1/employees/fetch,POST,legacy,active,mtls,address|branch_id,0,1,2026-05-19,1502,2025-03-10,2026-02-15,ananya.sharma,Digital Channels,prod,update response schema,0,0
+UBI-API-0097,/internal/v1/neft/get,PATCH,v3,borderline,basic_auth,loan_amount|interest_rate|account_number|ifsc_code|credit_score,1,1,2026-03-08,1206,2021-07-22,2023-07-23,ananya.sharma,Security,staging,hotfix prod issue,60,0
+UBI-API-0098,/api/v3/pan-verify/approve,GET,legacy,active,basic_auth,email|balance|amount,1,1,2026-05-04,1133,2022-06-27,2023-03-30,meera.krishnan,KYC & Compliance,prod,refactor logic,60,0
+UBI-API-0099,/legacy/v1/customers/delete,POST,legacy,active,none,balance|transaction_id,1,1,2026-05-16,3231,2021-09-01,2025-11-21,sneha.patel,Digital Channels,staging,add rate limiting,80,0
+UBI-API-0100,/api/v3/neft/list,PUT,v3,shadow,oauth2,amount,0,0,2026-05-12,32,2024-03-31,2026-03-09,kavya.reddy,Loans,staging,merge feature branch,20,0

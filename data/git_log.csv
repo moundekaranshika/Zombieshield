@@ -1,0 +1,101 @@
+commit_hash,author,date,message,file_path,api_endpoint
+a936020b,priya.iyer,2025-11-21,add rate limiting,src/routes/api/v2/reports/approve.py,/api/v2/reports/approve
+a379676b,priya.iyer,2025-03-27,update docs,src/routes/legacy/v1/neft/update.py,/legacy/v1/neft/update
+a186624b,sneha.patel,2024-11-17,add endpoint,src/routes/internal/v1/credit-score/sync.py,/internal/v1/credit-score/sync
+a545120b,arjun.mehta,2025-12-31,add rate limiting,src/routes/api/v3/employees/create.py,/api/v3/employees/create
+a551524b,rohit.verma,2025-10-02,add endpoint,src/routes/api/v1/neft/delete.py,/api/v1/neft/delete
+a962287b,sneha.patel,2024-01-31,refactor logic,src/routes/api/v2/credit-score/sync.py,/api/v2/credit-score/sync
+a671971b,ananya.sharma,2024-12-10,initial commit,src/routes/api/v1/reports/sync.py,/api/v1/reports/sync
+a436814b,deepak.nair,2025-01-07,merge feature branch,src/routes/legacy/v1/aadhaar/sync.py,/legacy/v1/aadhaar/sync
+a183958b,deepak.nair,2025-07-18,fix auth bug,src/routes/api/v1/transactions/list.py,/api/v1/transactions/list
+a793024b,vivek.gupta,2023-07-17,merge feature branch,src/routes/api/v1/ifsc/sync.py,/api/v1/ifsc/sync
+a421384b,ananya.sharma,2024-12-17,initial commit,src/routes/api/v3/ifsc/delete.py,/api/v3/ifsc/delete
+a731894b,deepak.nair,2024-11-11,update docs,src/routes/internal/v1/kyc/list.py,/internal/v1/kyc/list
+a546815b,sneha.patel,2021-11-25,deprecation notice added,src/routes/legacy/v1/reports/fetch.py,/legacy/v1/reports/fetch
+a823270b,arjun.mehta,2025-10-20,refactor logic,src/routes/internal/v1/transactions/get.py,/internal/v1/transactions/get
+a468623b,priya.iyer,2026-02-11,update docs,src/routes/internal/v1/statements/submit.py,/internal/v1/statements/submit
+a144412b,priya.iyer,2025-05-22,fix auth bug,src/routes/internal/v1/branch/delete.py,/internal/v1/branch/delete
+a469685b,sneha.patel,2025-04-29,hotfix prod issue,src/routes/api/v1/payments/sync.py,/api/v1/payments/sync
+a556068b,ananya.sharma,2026-04-05,merge feature branch,src/routes/internal/v1/upi/fetch.py,/internal/v1/upi/fetch
+a770532b,ananya.sharma,2026-02-16,merge feature branch,src/routes/legacy/v1/customers/validate.py,/legacy/v1/customers/validate
+a160144b,sneha.patel,2026-01-04,deprecation notice added,src/routes/api/v3/employees/verify.py,/api/v3/employees/verify
+a803787b,kavya.reddy,2024-01-01,add rate limiting,src/routes/api/v3/upi/fetch.py,/api/v3/upi/fetch
+a525942b,arjun.mehta,2025-08-28,add rate limiting,src/routes/internal/v1/beneficiaries/submit.py,/internal/v1/beneficiaries/submit
+a638009b,suresh.bose,2025-07-01,refactor logic,src/routes/api/v2/notifications/fetch.py,/api/v2/notifications/fetch
+a886325b,deepak.nair,2025-06-27,fix auth bug,src/routes/legacy/v1/kyc/submit.py,/legacy/v1/kyc/submit
+a267758b,ananya.sharma,2025-08-23,merge feature branch,src/routes/legacy/v1/upi/submit.py,/legacy/v1/upi/submit
+a132653b,suresh.bose,2025-05-21,merge feature branch,src/routes/internal/v1/pan-verify/get.py,/internal/v1/pan-verify/get
+a989894b,rohit.verma,2026-03-19,update response schema,src/routes/api/v2/credit-score/sync.py,/api/v2/credit-score/sync
+a811027b,kavya.reddy,2022-12-10,add rate limiting,src/routes/api/v2/payments/update.py,/api/v2/payments/update
+a559457b,kavya.reddy,2024-03-17,add rate limiting,src/routes/legacy/v1/reports/approve.py,/legacy/v1/reports/approve
+a232361b,kavya.reddy,2024-03-01,initial commit,src/routes/legacy/v1/accounts/verify.py,/legacy/v1/accounts/verify
+a347459b,arjun.mehta,2024-06-25,deprecation notice added,src/routes/api/v2/customers/delete.py,/api/v2/customers/delete
+a776502b,ananya.sharma,2024-10-22,initial commit,src/routes/internal/v1/customers/export.py,/internal/v1/customers/export
+a479742b,priya.iyer,2025-09-10,update docs,src/routes/internal/v1/aadhaar/validate.py,/internal/v1/aadhaar/validate
+a694799b,arjun.mehta,2025-07-10,hotfix prod issue,src/routes/api/v2/loans/fetch.py,/api/v2/loans/fetch
+a734487b,sneha.patel,2025-06-16,refactor logic,src/routes/legacy/v1/branch/get.py,/legacy/v1/branch/get
+a812048b,vivek.gupta,2024-10-30,fix auth bug,src/routes/api/v2/loans/delete.py,/api/v2/loans/delete
+a488984b,deepak.nair,2025-06-09,merge feature branch,src/routes/api/v3/notifications/approve.py,/api/v3/notifications/approve
+a565504b,meera.krishnan,2024-09-18,merge feature branch,src/routes/legacy/v1/accounts/get.py,/legacy/v1/accounts/get
+a180620b,priya.iyer,2026-03-23,refactor logic,src/routes/api/v2/transactions/approve.py,/api/v2/transactions/approve
+a244383b,meera.krishnan,2023-10-11,initial commit,src/routes/api/v3/transactions/update.py,/api/v3/transactions/update
+a484774b,sneha.patel,2024-05-22,add endpoint,src/routes/api/v1/accounts/fetch.py,/api/v1/accounts/fetch
+a429657b,rohit.verma,2025-05-30,update docs,src/routes/api/v1/payments/create.py,/api/v1/payments/create
+a392227b,sneha.patel,2024-09-27,fix auth bug,src/routes/legacy/v1/statements/fetch.py,/legacy/v1/statements/fetch
+a218959b,sneha.patel,2026-03-10,add endpoint,src/routes/api/v1/upi/validate.py,/api/v1/upi/validate
+a871411b,rohit.verma,2024-09-14,deprecation notice added,src/routes/legacy/v1/transactions/sync.py,/legacy/v1/transactions/sync
+a623285b,suresh.bose,2024-09-29,add endpoint,src/routes/legacy/v1/credit-score/sync.py,/legacy/v1/credit-score/sync
+a505785b,rohit.verma,2025-04-30,merge feature branch,src/routes/api/v3/reports/list.py,/api/v3/reports/list
+a688956b,arjun.mehta,2025-02-25,add endpoint,src/routes/api/v3/upi/approve.py,/api/v3/upi/approve
+a374492b,ananya.sharma,2025-06-17,add rate limiting,src/routes/legacy/v1/upi/list.py,/legacy/v1/upi/list
+a372933b,ananya.sharma,2024-09-02,add endpoint,src/routes/api/v1/accounts/submit.py,/api/v1/accounts/submit
+a567951b,deepak.nair,2026-03-24,fix auth bug,src/routes/api/v2/branch/approve.py,/api/v2/branch/approve
+a741599b,suresh.bose,2025-01-29,fix auth bug,src/routes/api/v1/credit-score/verify.py,/api/v1/credit-score/verify
+a827691b,deepak.nair,2026-01-13,initial commit,src/routes/internal/v1/rtgs/validate.py,/internal/v1/rtgs/validate
+a615060b,meera.krishnan,2024-07-06,fix auth bug,src/routes/legacy/v1/payments/validate.py,/legacy/v1/payments/validate
+a228594b,meera.krishnan,2023-02-05,refactor logic,src/routes/api/v3/beneficiaries/fetch.py,/api/v3/beneficiaries/fetch
+a994253b,priya.iyer,2023-05-08,initial commit,src/routes/api/v2/loans/verify.py,/api/v2/loans/verify
+a574001b,rohit.verma,2025-01-21,update docs,src/routes/api/v3/upi/create.py,/api/v3/upi/create
+a848022b,vivek.gupta,2024-10-20,deprecation notice added,src/routes/api/v3/ifsc/delete.py,/api/v3/ifsc/delete
+a192055b,kavya.reddy,2026-03-18,update docs,src/routes/legacy/v1/branch/get.py,/legacy/v1/branch/get
+a815054b,priya.iyer,2024-11-19,initial commit,src/routes/api/v2/notifications/export.py,/api/v2/notifications/export
+a986593b,meera.krishnan,2024-12-28,fix auth bug,src/routes/api/v2/loans/delete.py,/api/v2/loans/delete
+a800280b,ananya.sharma,2026-03-25,add endpoint,src/routes/api/v1/ifsc/get.py,/api/v1/ifsc/get
+a844007b,suresh.bose,2025-04-30,update docs,src/routes/internal/v1/rtgs/submit.py,/internal/v1/rtgs/submit
+a676713b,vivek.gupta,2024-12-20,update response schema,src/routes/api/v3/upi/get.py,/api/v3/upi/get
+a404466b,suresh.bose,2025-02-28,initial commit,src/routes/internal/v1/upi/fetch.py,/internal/v1/upi/fetch
+a414527b,deepak.nair,2025-11-17,add endpoint,src/routes/api/v3/transactions/submit.py,/api/v3/transactions/submit
+a265156b,deepak.nair,2025-08-16,update response schema,src/routes/api/v1/beneficiaries/update.py,/api/v1/beneficiaries/update
+a844031b,priya.iyer,2023-11-27,update response schema,src/routes/api/v3/payments/create.py,/api/v3/payments/create
+a834233b,vivek.gupta,2024-11-26,add rate limiting,src/routes/api/v2/upi/sync.py,/api/v2/upi/sync
+a282547b,vivek.gupta,2023-09-08,hotfix prod issue,src/routes/internal/v1/statements/validate.py,/internal/v1/statements/validate
+a479052b,rohit.verma,2024-08-14,add rate limiting,src/routes/internal/v1/beneficiaries/verify.py,/internal/v1/beneficiaries/verify
+a335134b,kavya.reddy,2024-04-09,hotfix prod issue,src/routes/api/v3/ifsc/verify.py,/api/v3/ifsc/verify
+a310743b,suresh.bose,2025-09-29,hotfix prod issue,src/routes/api/v1/loans/verify.py,/api/v1/loans/verify
+a245622b,meera.krishnan,2024-01-08,refactor logic,src/routes/api/v1/statements/fetch.py,/api/v1/statements/fetch
+a928766b,ananya.sharma,2022-06-14,deprecation notice added,src/routes/api/v3/transactions/delete.py,/api/v3/transactions/delete
+a127560b,meera.krishnan,2024-05-18,merge feature branch,src/routes/internal/v1/rtgs/get.py,/internal/v1/rtgs/get
+a680933b,rohit.verma,2025-01-19,merge feature branch,src/routes/api/v3/reports/fetch.py,/api/v3/reports/fetch
+a486831b,suresh.bose,2025-04-29,deprecation notice added,src/routes/api/v2/employees/get.py,/api/v2/employees/get
+a942700b,vivek.gupta,2025-01-18,fix auth bug,src/routes/api/v2/statements/update.py,/api/v2/statements/update
+a236074b,ananya.sharma,2025-09-07,hotfix prod issue,src/routes/internal/v1/neft/get.py,/internal/v1/neft/get
+a190403b,rohit.verma,2025-02-23,update response schema,src/routes/legacy/v1/statements/get.py,/legacy/v1/statements/get
+a424314b,rohit.verma,2026-02-23,update response schema,src/routes/api/v3/beneficiaries/update.py,/api/v3/beneficiaries/update
+a851759b,rohit.verma,2025-06-26,refactor logic,src/routes/api/v2/transactions/create.py,/api/v2/transactions/create
+a601916b,arjun.mehta,2021-12-22,deprecation notice added,src/routes/api/v2/ifsc/get.py,/api/v2/ifsc/get
+a530749b,suresh.bose,2022-08-13,hotfix prod issue,src/routes/api/v3/loans/submit.py,/api/v3/loans/submit
+a529322b,vivek.gupta,2025-02-14,add rate limiting,src/routes/api/v1/beneficiaries/approve.py,/api/v1/beneficiaries/approve
+a702826b,meera.krishnan,2024-02-29,deprecation notice added,src/routes/legacy/v1/beneficiaries/submit.py,/legacy/v1/beneficiaries/submit
+a231414b,priya.iyer,2023-07-09,add endpoint,src/routes/api/v2/neft/delete.py,/api/v2/neft/delete
+a773540b,priya.iyer,2024-01-12,add endpoint,src/routes/api/v3/kyc/update.py,/api/v3/kyc/update
+a571832b,deepak.nair,2025-01-18,deprecation notice added,src/routes/legacy/v1/payments/create.py,/legacy/v1/payments/create
+a813145b,kavya.reddy,2023-02-11,update docs,src/routes/legacy/v1/aadhaar/export.py,/legacy/v1/aadhaar/export
+a461249b,vivek.gupta,2025-03-13,merge feature branch,src/routes/legacy/v1/neft/sync.py,/legacy/v1/neft/sync
+a969325b,arjun.mehta,2025-07-04,hotfix prod issue,src/routes/api/v1/upi/list.py,/api/v1/upi/list
+a678083b,suresh.bose,2025-05-12,initial commit,src/routes/api/v2/customers/delete.py,/api/v2/customers/delete
+a716338b,deepak.nair,2025-11-29,refactor logic,src/routes/legacy/v1/transactions/delete.py,/legacy/v1/transactions/delete
+a905077b,ananya.sharma,2026-01-21,update response schema,src/routes/api/v1/employees/fetch.py,/api/v1/employees/fetch
+a235300b,ananya.sharma,2023-07-23,hotfix prod issue,src/routes/internal/v1/neft/get.py,/internal/v1/neft/get
+a627290b,meera.krishnan,2023-03-13,refactor logic,src/routes/api/v3/pan-verify/approve.py,/api/v3/pan-verify/approve
+a158104b,sneha.patel,2025-11-20,add rate limiting,src/routes/legacy/v1/customers/delete.py,/legacy/v1/customers/delete
+a230192b,kavya.reddy,2026-03-05,merge feature branch,src/routes/api/v3/neft/list.py,/api/v3/neft/list

@@ -1,0 +1,21 @@
+# ZombieShield — Streamlit Cloud / local settings
+# https://docs.streamlit.io/develop/concepts/configuration/options
+
+[theme]
+primaryColor = "#1e40af"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f1f5f9"
+textColor = "#0f172a"
+font = "sans serif"
+
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = true
+maxUploadSize = 10
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+fastReruns = true

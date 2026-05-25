@@ -1,0 +1,458 @@
+{
+  "generated_at": "2026-05-25T16:11:22.223778",
+  "summary": {
+    "total_swagger_paths": 81,
+    "total_traffic_apis": 93,
+    "shadow_apis": 12,
+    "zombie_candidates": 30,
+    "pii_exposed_shadow_apis": 6
+  },
+  "shadow_apis": [
+    {
+      "api_id": "UBI-API-0010",
+      "endpoint": "/api/v1/ifsc/sync",
+      "method": "GET",
+      "last_called_date": "2026-05-13",
+      "daily_avg_calls": "25",
+      "auth_type": "none",
+      "has_pii": "1",
+      "owner_git_user": "vivek.gupta",
+      "drift_type": "Shadow \u2014 in traffic, not in swagger",
+      "risk": "HIGH \u2014 undocumented endpoint, unknown security posture"
+    },
+    {
+      "api_id": "UBI-API-0019",
+      "endpoint": "/legacy/v1/customers/validate",
+      "method": "POST",
+      "last_called_date": "2026-05-06",
+      "daily_avg_calls": "18",
+      "auth_type": "api_key",
+      "has_pii": "1",
+      "owner_git_user": "ananya.sharma",
+      "drift_type": "Shadow \u2014 in traffic, not in swagger",
+      "risk": "HIGH \u2014 undocumented endpoint, unknown security posture"
+    },
+    {
+      "api_id": "UBI-API-0025",
+      "endpoint": "/legacy/v1/upi/submit",
+      "method": "PATCH",
+      "last_called_date": "2026-05-12",
+      "daily_avg_calls": "4",
+      "auth_type": "api_key",
+      "has_pii": "1",
+      "owner_git_user": "ananya.sharma",
+      "drift_type": "Shadow \u2014 in traffic, not in swagger",
+      "risk": "HIGH \u2014 undocumented endpoint, unknown security posture"
+    },
+    {
+      "api_id": "UBI-API-0029",
+      "endpoint": "/legacy/v1/reports/approve",
+      "method": "GET",
+      "last_called_date": "2026-04-22",
+      "daily_avg_calls": "28",
+      "auth_type": "basic_auth",
+      "has_pii": "1",
+      "owner_git_user": "kavya.reddy",
+      "drift_type": "Shadow \u2014 in traffic, not in swagger",
+      "risk": "HIGH \u2014 undocumented endpoint, unknown security posture"
+    },
+    {
+      "api_id": "UBI-API-0039",
+      "endpoint": "/api/v2/transactions/approve",
+      "method": "POST",
+      "last_called_date": "2026-04-07",
+      "daily_avg_calls": "39",
+      "auth_type": "oauth2",
+      "has_pii": "0",
+      "owner_git_user": "priya.iyer",
+      "drift_type": "Shadow \u2014 in traffic, not in swagger",
+      "risk": "HIGH \u2014 undocumented endpoint, unknown security posture"
+    },
+    {
+      "api_id": "UBI-API-0067",
+      "endpoint": "/api/v1/beneficiaries/update",
+      "method": "POST",
+      "last_called_date": "2026-04-04",
+      "daily_avg_calls": "1",
+      "auth_type": "basic_auth",
+      "has_pii": "0",
+      "owner_git_user": "deepak.nair",
+      "drift_type": "Shadow \u2014 in traffic, not in swagger",
+      "risk": "HIGH \u2014 undocumented endpoint, unknown security posture"
+    },
+    {
+      "api_id": "UBI-API-0076",
+      "endpoint": "/internal/v1/rtgs/get",
+      "method": "POST",
+      "last_called_date": "2026-05-02",
+      "daily_avg_calls": "20",
+      "auth_type": "mtls",
+      "has_pii": "0",
+      "owner_git_user": "meera.krishnan",
+      "drift_type": "Shadow \u2014 in traffic, not in swagger",
+      "risk": "HIGH \u2014 undocumented endpoint, unknown security posture"
+    },
+    {
+      "api_id": "UBI-API-0079",
+      "endpoint": "/api/v2/statements/update",
+      "method": "POST",
+      "last_called_date": "2026-04-29",
+      "daily_avg_calls": "33",
+      "auth_type": "oauth2",
+      "has_pii": "1",
+      "owner_git_user": "vivek.gupta",
+      "drift_type": "Shadow \u2014 in traffic, not in swagger",
+      "risk": "HIGH \u2014 undocumented endpoint, unknown security posture"
+    },
+    {
+      "api_id": "UBI-API-0084",
+      "endpoint": "/api/v2/ifsc/get",
+      "method": "DELETE",
+      "last_called_date": "2026-04-25",
+      "daily_avg_calls": "24",
+      "auth_type": "jwt",
+      "has_pii": "1",
+      "owner_git_user": "arjun.mehta",
+      "drift_type": "Shadow \u2014 in traffic, not in swagger",
+      "risk": "HIGH \u2014 undocumented endpoint, unknown security posture"
+    },
+    {
+      "api_id": "UBI-API-0088",
+      "endpoint": "/api/v2/neft/delete",
+      "method": "DELETE",
+      "last_called_date": "2026-04-21",
+      "daily_avg_calls": "24",
+      "auth_type": "api_key",
+      "has_pii": "0",
+      "owner_git_user": "priya.iyer",
+      "drift_type": "Shadow \u2014 in traffic, not in swagger",
+      "risk": "HIGH \u2014 undocumented endpoint, unknown security posture"
+    },
+    {
+      "api_id": "UBI-API-0091",
+      "endpoint": "/legacy/v1/aadhaar/export",
+      "method": "PATCH",
+      "last_called_date": "2026-03-29",
+      "daily_avg_calls": "42",
+      "auth_type": "jwt",
+      "has_pii": "0",
+      "owner_git_user": "kavya.reddy",
+      "drift_type": "Shadow \u2014 in traffic, not in swagger",
+      "risk": "HIGH \u2014 undocumented endpoint, unknown security posture"
+    },
+    {
+      "api_id": "UBI-API-0100",
+      "endpoint": "/api/v3/neft/list",
+      "method": "PUT",
+      "last_called_date": "2026-05-12",
+      "daily_avg_calls": "32",
+      "auth_type": "oauth2",
+      "has_pii": "0",
+      "owner_git_user": "kavya.reddy",
+      "drift_type": "Shadow \u2014 in traffic, not in swagger",
+      "risk": "HIGH \u2014 undocumented endpoint, unknown security posture"
+    }
+  ],
+  "zombie_candidates": [
+    {
+      "api_id": "UBI-API-0005",
+      "endpoint": "/api/v1/neft/delete",
+      "last_called_date": "2025-10-14",
+      "days_silent": 223,
+      "auth_type": "none",
+      "owner_git_user": "rohit.verma",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0006",
+      "endpoint": "/api/v2/credit-score/sync",
+      "last_called_date": "2025-10-22",
+      "days_silent": 215,
+      "auth_type": "jwt",
+      "owner_git_user": "sneha.patel",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0008",
+      "endpoint": "/legacy/v1/aadhaar/sync",
+      "last_called_date": "2024-12-16",
+      "days_silent": 525,
+      "auth_type": "mtls",
+      "owner_git_user": "deepak.nair",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0011",
+      "endpoint": "/api/v3/ifsc/delete",
+      "last_called_date": "2025-12-26",
+      "days_silent": 150,
+      "auth_type": "mtls",
+      "owner_git_user": "ananya.sharma",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0058",
+      "endpoint": "/api/v3/ifsc/delete",
+      "last_called_date": "2025-06-11",
+      "days_silent": 348,
+      "auth_type": "jwt",
+      "owner_git_user": "vivek.gupta",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0013",
+      "endpoint": "/legacy/v1/reports/fetch",
+      "last_called_date": "2025-04-05",
+      "days_silent": 415,
+      "auth_type": "oauth2",
+      "owner_git_user": "sneha.patel",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0014",
+      "endpoint": "/internal/v1/transactions/get",
+      "last_called_date": "2024-06-06",
+      "days_silent": 718,
+      "auth_type": "api_key",
+      "owner_git_user": "arjun.mehta",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0015",
+      "endpoint": "/internal/v1/statements/submit",
+      "last_called_date": "2025-03-08",
+      "days_silent": 443,
+      "auth_type": "api_key",
+      "owner_git_user": "priya.iyer",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0016",
+      "endpoint": "/internal/v1/branch/delete",
+      "last_called_date": "2024-08-07",
+      "days_silent": 656,
+      "auth_type": "none",
+      "owner_git_user": "priya.iyer",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0017",
+      "endpoint": "/api/v1/payments/sync",
+      "last_called_date": "2025-06-12",
+      "days_silent": 347,
+      "auth_type": "oauth2",
+      "owner_git_user": "sneha.patel",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0026",
+      "endpoint": "/internal/v1/pan-verify/get",
+      "last_called_date": "2025-09-13",
+      "days_silent": 254,
+      "auth_type": "api_key",
+      "owner_git_user": "suresh.bose",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0032",
+      "endpoint": "/internal/v1/customers/export",
+      "last_called_date": "2025-06-23",
+      "days_silent": 336,
+      "auth_type": "mtls",
+      "owner_git_user": "ananya.sharma",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0033",
+      "endpoint": "/internal/v1/aadhaar/validate",
+      "last_called_date": "2025-04-09",
+      "days_silent": 411,
+      "auth_type": "oauth2",
+      "owner_git_user": "priya.iyer",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0034",
+      "endpoint": "/api/v2/loans/fetch",
+      "last_called_date": "2024-09-22",
+      "days_silent": 610,
+      "auth_type": "none",
+      "owner_git_user": "arjun.mehta",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0035",
+      "endpoint": "/legacy/v1/branch/get",
+      "last_called_date": "2024-12-03",
+      "days_silent": 538,
+      "auth_type": "oauth2",
+      "owner_git_user": "sneha.patel",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0038",
+      "endpoint": "/legacy/v1/accounts/get",
+      "last_called_date": "2025-02-27",
+      "days_silent": 452,
+      "auth_type": "api_key",
+      "owner_git_user": "meera.krishnan",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0046",
+      "endpoint": "/legacy/v1/credit-score/sync",
+      "last_called_date": "2024-07-13",
+      "days_silent": 681,
+      "auth_type": "jwt",
+      "owner_git_user": "suresh.bose",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0047",
+      "endpoint": "/api/v3/reports/list",
+      "last_called_date": "2025-03-31",
+      "days_silent": 420,
+      "auth_type": "jwt",
+      "owner_git_user": "rohit.verma",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0048",
+      "endpoint": "/api/v3/upi/approve",
+      "last_called_date": "2024-09-14",
+      "days_silent": 618,
+      "auth_type": "oauth2",
+      "owner_git_user": "arjun.mehta",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0052",
+      "endpoint": "/api/v1/credit-score/verify",
+      "last_called_date": "2024-08-20",
+      "days_silent": 643,
+      "auth_type": "basic_auth",
+      "owner_git_user": "suresh.bose",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0054",
+      "endpoint": "/legacy/v1/payments/validate",
+      "last_called_date": "2025-09-17",
+      "days_silent": 250,
+      "auth_type": "api_key",
+      "owner_git_user": "meera.krishnan",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0057",
+      "endpoint": "/api/v3/upi/create",
+      "last_called_date": "2024-10-01",
+      "days_silent": 601,
+      "auth_type": "basic_auth",
+      "owner_git_user": "rohit.verma",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0060",
+      "endpoint": "/api/v2/notifications/export",
+      "last_called_date": "2024-11-28",
+      "days_silent": 543,
+      "auth_type": "mtls",
+      "owner_git_user": "priya.iyer",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0064",
+      "endpoint": "/api/v3/upi/get",
+      "last_called_date": "2025-01-21",
+      "days_silent": 489,
+      "auth_type": "none",
+      "owner_git_user": "vivek.gupta",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0073",
+      "endpoint": "/api/v1/loans/verify",
+      "last_called_date": "2024-12-29",
+      "days_silent": 512,
+      "auth_type": "mtls",
+      "owner_git_user": "suresh.bose",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0075",
+      "endpoint": "/api/v3/transactions/delete",
+      "last_called_date": "2025-02-28",
+      "days_silent": 451,
+      "auth_type": "api_key",
+      "owner_git_user": "ananya.sharma",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0078",
+      "endpoint": "/api/v2/employees/get",
+      "last_called_date": "2025-07-12",
+      "days_silent": 317,
+      "auth_type": "jwt",
+      "owner_git_user": "suresh.bose",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0081",
+      "endpoint": "/legacy/v1/statements/get",
+      "last_called_date": "2024-06-29",
+      "days_silent": 695,
+      "auth_type": "none",
+      "owner_git_user": "rohit.verma",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0087",
+      "endpoint": "/legacy/v1/beneficiaries/submit",
+      "last_called_date": "2024-06-15",
+      "days_silent": 709,
+      "auth_type": "none",
+      "owner_git_user": "meera.krishnan",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    },
+    {
+      "api_id": "UBI-API-0090",
+      "endpoint": "/legacy/v1/payments/create",
+      "last_called_date": "2025-06-28",
+      "days_silent": 331,
+      "auth_type": "mtls",
+      "owner_git_user": "deepak.nair",
+      "drift_type": "Zombie candidate \u2014 in swagger, zero calls",
+      "risk": "HIGH \u2014 active endpoint, no legitimate usage"
+    }
+  ]
+}

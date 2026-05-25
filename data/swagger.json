@@ -1,0 +1,1547 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Union Bank Internal API Spec",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/api/v2/reports/approve": {
+      "put": {
+        "summary": "Endpoint UBI-API-0001",
+        "operationId": "UBI-API-0001",
+        "tags": [
+          "Payments"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/legacy/v1/neft/update": {
+      "post": {
+        "summary": "Endpoint UBI-API-0002",
+        "operationId": "UBI-API-0002",
+        "tags": [
+          "Analytics"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/internal/v1/credit-score/sync": {
+      "get": {
+        "summary": "Endpoint UBI-API-0003",
+        "operationId": "UBI-API-0003",
+        "tags": [
+          "Analytics"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v3/employees/create": {
+      "patch": {
+        "summary": "Endpoint UBI-API-0004",
+        "operationId": "UBI-API-0004",
+        "tags": [
+          "Analytics"
+        ],
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/neft/delete": {
+      "post": {
+        "summary": "Endpoint UBI-API-0005",
+        "operationId": "UBI-API-0005",
+        "tags": [
+          "Security"
+        ],
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/credit-score/sync": {
+      "patch": {
+        "summary": "Endpoint UBI-API-0006",
+        "operationId": "UBI-API-0006",
+        "tags": [
+          "Loans"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/reports/sync": {
+      "post": {
+        "summary": "Endpoint UBI-API-0007",
+        "operationId": "UBI-API-0007",
+        "tags": [
+          "Payments"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/legacy/v1/aadhaar/sync": {
+      "post": {
+        "summary": "Endpoint UBI-API-0008",
+        "operationId": "UBI-API-0008",
+        "tags": [
+          "Core Banking"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/transactions/list": {
+      "delete": {
+        "summary": "Endpoint UBI-API-0009",
+        "operationId": "UBI-API-0009",
+        "tags": [
+          "Digital Channels"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v3/ifsc/delete": {
+      "delete": {
+        "summary": "Endpoint UBI-API-0011",
+        "operationId": "UBI-API-0011",
+        "tags": [
+          "Digital Channels"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "summary": "Endpoint UBI-API-0058",
+        "operationId": "UBI-API-0058",
+        "tags": [
+          "KYC & Compliance"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/internal/v1/kyc/list": {
+      "patch": {
+        "summary": "Endpoint UBI-API-0012",
+        "operationId": "UBI-API-0012",
+        "tags": [
+          "Loans"
+        ],
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/legacy/v1/reports/fetch": {
+      "patch": {
+        "summary": "Endpoint UBI-API-0013",
+        "operationId": "UBI-API-0013",
+        "tags": [
+          "Loans"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/internal/v1/transactions/get": {
+      "patch": {
+        "summary": "Endpoint UBI-API-0014",
+        "operationId": "UBI-API-0014",
+        "tags": [
+          "KYC & Compliance"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/internal/v1/statements/submit": {
+      "get": {
+        "summary": "Endpoint UBI-API-0015",
+        "operationId": "UBI-API-0015",
+        "tags": [
+          "KYC & Compliance"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/internal/v1/branch/delete": {
+      "get": {
+        "summary": "Endpoint UBI-API-0016",
+        "operationId": "UBI-API-0016",
+        "tags": [
+          "Security"
+        ],
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/payments/sync": {
+      "get": {
+        "summary": "Endpoint UBI-API-0017",
+        "operationId": "UBI-API-0017",
+        "tags": [
+          "KYC & Compliance"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/internal/v1/upi/fetch": {
+      "post": {
+        "summary": "Endpoint UBI-API-0018",
+        "operationId": "UBI-API-0018",
+        "tags": [
+          "Payments"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v3/employees/verify": {
+      "patch": {
+        "summary": "Endpoint UBI-API-0020",
+        "operationId": "UBI-API-0020",
+        "tags": [
+          "Payments"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v3/upi/fetch": {
+      "patch": {
+        "summary": "Endpoint UBI-API-0021",
+        "operationId": "UBI-API-0021",
+        "tags": [
+          "Core Banking"
+        ],
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/internal/v1/beneficiaries/submit": {
+      "get": {
+        "summary": "Endpoint UBI-API-0022",
+        "operationId": "UBI-API-0022",
+        "tags": [
+          "Loans"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/notifications/fetch": {
+      "put": {
+        "summary": "Endpoint UBI-API-0023",
+        "operationId": "UBI-API-0023",
+        "tags": [
+          "Digital Channels"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/legacy/v1/kyc/submit": {
+      "get": {
+        "summary": "Endpoint UBI-API-0024",
+        "operationId": "UBI-API-0024",
+        "tags": [
+          "Analytics"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/internal/v1/pan-verify/get": {
+      "delete": {
+        "summary": "Endpoint UBI-API-0026",
+        "operationId": "UBI-API-0026",
+        "tags": [
+          "Analytics"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/payments/update": {
+      "delete": {
+        "summary": "Endpoint UBI-API-0028",
+        "operationId": "UBI-API-0028",
+        "tags": [
+          "Loans"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/legacy/v1/accounts/verify": {
+      "put": {
+        "summary": "Endpoint UBI-API-0030",
+        "operationId": "UBI-API-0030",
+        "tags": [
+          "Digital Channels"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/customers/delete": {
+      "delete": {
+        "summary": "Endpoint UBI-API-0094",
+        "operationId": "UBI-API-0094",
+        "tags": [
+          "Core Banking"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/internal/v1/customers/export": {
+      "post": {
+        "summary": "Endpoint UBI-API-0032",
+        "operationId": "UBI-API-0032",
+        "tags": [
+          "Payments"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/internal/v1/aadhaar/validate": {
+      "put": {
+        "summary": "Endpoint UBI-API-0033",
+        "operationId": "UBI-API-0033",
+        "tags": [
+          "KYC & Compliance"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/loans/fetch": {
+      "post": {
+        "summary": "Endpoint UBI-API-0034",
+        "operationId": "UBI-API-0034",
+        "tags": [
+          "Digital Channels"
+        ],
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/legacy/v1/branch/get": {
+      "delete": {
+        "summary": "Endpoint UBI-API-0035",
+        "operationId": "UBI-API-0035",
+        "tags": [
+          "Digital Channels"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "summary": "Endpoint UBI-API-0059",
+        "operationId": "UBI-API-0059",
+        "tags": [
+          "KYC & Compliance"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/loans/delete": {
+      "delete": {
+        "summary": "Endpoint UBI-API-0036",
+        "operationId": "UBI-API-0036",
+        "tags": [
+          "Analytics"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "summary": "Endpoint UBI-API-0061",
+        "operationId": "UBI-API-0061",
+        "tags": [
+          "Digital Channels"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v3/notifications/approve": {
+      "put": {
+        "summary": "Endpoint UBI-API-0037",
+        "operationId": "UBI-API-0037",
+        "tags": [
+          "Core Banking"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/legacy/v1/accounts/get": {
+      "put": {
+        "summary": "Endpoint UBI-API-0038",
+        "operationId": "UBI-API-0038",
+        "tags": [
+          "Digital Channels"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v3/transactions/update": {
+      "put": {
+        "summary": "Endpoint UBI-API-0040",
+        "operationId": "UBI-API-0040",
+        "tags": [
+          "Payments"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/accounts/fetch": {
+      "put": {
+        "summary": "Endpoint UBI-API-0041",
+        "operationId": "UBI-API-0041",
+        "tags": [
+          "Analytics"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/payments/create": {
+      "patch": {
+        "summary": "Endpoint UBI-API-0042",
+        "operationId": "UBI-API-0042",
+        "tags": [
+          "Digital Channels"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/legacy/v1/statements/fetch": {
+      "delete": {
+        "summary": "Endpoint UBI-API-0043",
+        "operationId": "UBI-API-0043",
+        "tags": [
+          "Security"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/upi/validate": {
+      "patch": {
+        "summary": "Endpoint UBI-API-0044",
+        "operationId": "UBI-API-0044",
+        "tags": [
+          "Security"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/legacy/v1/transactions/sync": {
+      "post": {
+        "summary": "Endpoint UBI-API-0045",
+        "operationId": "UBI-API-0045",
+        "tags": [
+          "Core Banking"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/legacy/v1/credit-score/sync": {
+      "patch": {
+        "summary": "Endpoint UBI-API-0046",
+        "operationId": "UBI-API-0046",
+        "tags": [
+          "KYC & Compliance"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v3/reports/list": {
+      "post": {
+        "summary": "Endpoint UBI-API-0047",
+        "operationId": "UBI-API-0047",
+        "tags": [
+          "Loans"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v3/upi/approve": {
+      "delete": {
+        "summary": "Endpoint UBI-API-0048",
+        "operationId": "UBI-API-0048",
+        "tags": [
+          "KYC & Compliance"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/legacy/v1/upi/list": {
+      "post": {
+        "summary": "Endpoint UBI-API-0049",
+        "operationId": "UBI-API-0049",
+        "tags": [
+          "Payments"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/accounts/submit": {
+      "patch": {
+        "summary": "Endpoint UBI-API-0050",
+        "operationId": "UBI-API-0050",
+        "tags": [
+          "Digital Channels"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/branch/approve": {
+      "put": {
+        "summary": "Endpoint UBI-API-0051",
+        "operationId": "UBI-API-0051",
+        "tags": [
+          "Loans"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/credit-score/verify": {
+      "put": {
+        "summary": "Endpoint UBI-API-0052",
+        "operationId": "UBI-API-0052",
+        "tags": [
+          "Digital Channels"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/internal/v1/rtgs/validate": {
+      "put": {
+        "summary": "Endpoint UBI-API-0053",
+        "operationId": "UBI-API-0053",
+        "tags": [
+          "Analytics"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/legacy/v1/payments/validate": {
+      "get": {
+        "summary": "Endpoint UBI-API-0054",
+        "operationId": "UBI-API-0054",
+        "tags": [
+          "Loans"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v3/beneficiaries/fetch": {
+      "delete": {
+        "summary": "Endpoint UBI-API-0055",
+        "operationId": "UBI-API-0055",
+        "tags": [
+          "Loans"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/loans/verify": {
+      "get": {
+        "summary": "Endpoint UBI-API-0056",
+        "operationId": "UBI-API-0056",
+        "tags": [
+          "Security"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v3/upi/create": {
+      "post": {
+        "summary": "Endpoint UBI-API-0057",
+        "operationId": "UBI-API-0057",
+        "tags": [
+          "Digital Channels"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/notifications/export": {
+      "post": {
+        "summary": "Endpoint UBI-API-0060",
+        "operationId": "UBI-API-0060",
+        "tags": [
+          "Security"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/ifsc/get": {
+      "post": {
+        "summary": "Endpoint UBI-API-0062",
+        "operationId": "UBI-API-0062",
+        "tags": [
+          "KYC & Compliance"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/internal/v1/rtgs/submit": {
+      "put": {
+        "summary": "Endpoint UBI-API-0063",
+        "operationId": "UBI-API-0063",
+        "tags": [
+          "Digital Channels"
+        ],
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v3/upi/get": {
+      "post": {
+        "summary": "Endpoint UBI-API-0064",
+        "operationId": "UBI-API-0064",
+        "tags": [
+          "Core Banking"
+        ],
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v3/transactions/submit": {
+      "put": {
+        "summary": "Endpoint UBI-API-0066",
+        "operationId": "UBI-API-0066",
+        "tags": [
+          "Core Banking"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v3/payments/create": {
+      "patch": {
+        "summary": "Endpoint UBI-API-0068",
+        "operationId": "UBI-API-0068",
+        "tags": [
+          "Core Banking"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/upi/sync": {
+      "get": {
+        "summary": "Endpoint UBI-API-0069",
+        "operationId": "UBI-API-0069",
+        "tags": [
+          "Analytics"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/internal/v1/statements/validate": {
+      "get": {
+        "summary": "Endpoint UBI-API-0070",
+        "operationId": "UBI-API-0070",
+        "tags": [
+          "Core Banking"
+        ],
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/internal/v1/beneficiaries/verify": {
+      "patch": {
+        "summary": "Endpoint UBI-API-0071",
+        "operationId": "UBI-API-0071",
+        "tags": [
+          "Analytics"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v3/ifsc/verify": {
+      "delete": {
+        "summary": "Endpoint UBI-API-0072",
+        "operationId": "UBI-API-0072",
+        "tags": [
+          "KYC & Compliance"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/loans/verify": {
+      "get": {
+        "summary": "Endpoint UBI-API-0073",
+        "operationId": "UBI-API-0073",
+        "tags": [
+          "Digital Channels"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/statements/fetch": {
+      "put": {
+        "summary": "Endpoint UBI-API-0074",
+        "operationId": "UBI-API-0074",
+        "tags": [
+          "Payments"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v3/transactions/delete": {
+      "patch": {
+        "summary": "Endpoint UBI-API-0075",
+        "operationId": "UBI-API-0075",
+        "tags": [
+          "Payments"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v3/reports/fetch": {
+      "get": {
+        "summary": "Endpoint UBI-API-0077",
+        "operationId": "UBI-API-0077",
+        "tags": [
+          "KYC & Compliance"
+        ],
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/employees/get": {
+      "put": {
+        "summary": "Endpoint UBI-API-0078",
+        "operationId": "UBI-API-0078",
+        "tags": [
+          "Loans"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/legacy/v1/statements/get": {
+      "delete": {
+        "summary": "Endpoint UBI-API-0081",
+        "operationId": "UBI-API-0081",
+        "tags": [
+          "Loans"
+        ],
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v3/beneficiaries/update": {
+      "put": {
+        "summary": "Endpoint UBI-API-0082",
+        "operationId": "UBI-API-0082",
+        "tags": [
+          "Digital Channels"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/transactions/create": {
+      "put": {
+        "summary": "Endpoint UBI-API-0083",
+        "operationId": "UBI-API-0083",
+        "tags": [
+          "Payments"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v3/loans/submit": {
+      "get": {
+        "summary": "Endpoint UBI-API-0085",
+        "operationId": "UBI-API-0085",
+        "tags": [
+          "Security"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/beneficiaries/approve": {
+      "get": {
+        "summary": "Endpoint UBI-API-0086",
+        "operationId": "UBI-API-0086",
+        "tags": [
+          "Loans"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/legacy/v1/beneficiaries/submit": {
+      "patch": {
+        "summary": "Endpoint UBI-API-0087",
+        "operationId": "UBI-API-0087",
+        "tags": [
+          "Security"
+        ],
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v3/kyc/update": {
+      "put": {
+        "summary": "Endpoint UBI-API-0089",
+        "operationId": "UBI-API-0089",
+        "tags": [
+          "Core Banking"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/legacy/v1/payments/create": {
+      "post": {
+        "summary": "Endpoint UBI-API-0090",
+        "operationId": "UBI-API-0090",
+        "tags": [
+          "Loans"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/legacy/v1/neft/sync": {
+      "get": {
+        "summary": "Endpoint UBI-API-0092",
+        "operationId": "UBI-API-0092",
+        "tags": [
+          "Digital Channels"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/upi/list": {
+      "delete": {
+        "summary": "Endpoint UBI-API-0093",
+        "operationId": "UBI-API-0093",
+        "tags": [
+          "Payments"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/legacy/v1/transactions/delete": {
+      "post": {
+        "summary": "Endpoint UBI-API-0095",
+        "operationId": "UBI-API-0095",
+        "tags": [
+          "Loans"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/employees/fetch": {
+      "post": {
+        "summary": "Endpoint UBI-API-0096",
+        "operationId": "UBI-API-0096",
+        "tags": [
+          "Digital Channels"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/internal/v1/neft/get": {
+      "patch": {
+        "summary": "Endpoint UBI-API-0097",
+        "operationId": "UBI-API-0097",
+        "tags": [
+          "Security"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v3/pan-verify/approve": {
+      "get": {
+        "summary": "Endpoint UBI-API-0098",
+        "operationId": "UBI-API-0098",
+        "tags": [
+          "KYC & Compliance"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/legacy/v1/customers/delete": {
+      "post": {
+        "summary": "Endpoint UBI-API-0099",
+        "operationId": "UBI-API-0099",
+        "tags": [
+          "Digital Channels"
+        ],
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  }
+}

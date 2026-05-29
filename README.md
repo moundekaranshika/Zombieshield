@@ -22,7 +22,7 @@ ZombieShield automatically discovers, classifies, scores, and generates AI-power
 
 ## Live Demo
 
-🔗 **Live App:** [https://zombieshield-wtk7rx8vvkj6tztvnwyvf7.streamlit.app/](#deployment-streamlit-community-cloud)
+🔗 **Live App:** https://zombieshield-wtk7rx8vvkj6tztvnwyvf7.streamlit.app/
 
 🎥 **Demo Video (D2):** [YouTube link — add before submission]
 

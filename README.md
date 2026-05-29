@@ -265,7 +265,7 @@ to handle ambiguous cases — this is noted as a planned upgrade.
 | Shivani | Frontend | Dashboard & User Experience |
 | Khushi Yadav | ML/Risk | Anomaly Detection & Risk Modeling |
 
-**Institute:** Indian Institute of Technology Patna
+**Institute:** Indian Institute of Technology Patna   
 **Hackathon:** iDEA 2.0 — PSBs Hackathon Series 2026, Union Bank of India
 
 ---

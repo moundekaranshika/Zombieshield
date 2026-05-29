@@ -1,4 +1,4 @@
-# ZombieShield — Zombie API Discovery & Defence
+# ZombieShield — Zombie API Discovery & Defence for Cyber Security
 
 > iDEA 2.0 | PSBs Hackathon Series 2026 | PS9 — Zombie API Discovery for Cyber Security |
 > Team Kopiko | Indian Institute of Technology Patna

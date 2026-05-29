@@ -279,3 +279,10 @@ to handle ambiguous cases — this is noted as a planned upgrade.
 | D3 | Technical Architecture Document | [add link] |
 | D4 | GitHub Repository (this repo) | https://github.com/moundekaranshika/Zombieshield |
 | D5 | Pitch Video (5 min) + Slide Deck | [add YouTube link] |
+
+## Contact
+For any queries about this submission:
+Team Name: Kopiko
+Institute: Indian Institute of Technology Patna
+Email: anshimoun@gmail.com
+iDEA 2.0 Phase 2 Submission

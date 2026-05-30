@@ -209,7 +209,7 @@ to handle ambiguous cases — this is noted as a planned upgrade.
 
 | # | Deliverable | Link |
 |---|---|---|
-| D1 | Problem + Solution Brief | [https://docs.google.com/document/d/1MKnFzHhIvplZPnzEYNY-J_vM32DOHUMPmnVeZd0Qqg0/edit?usp=sharing] |
+| D1 | Problem + Solution Brief | https://docs.google.com/document/d/1MKnFzHhIvplZPnzEYNY-J_vM32DOHUMPmnVeZd0Qqg0/edit?usp=sharing |
 | D2 | Technical Demo Video (5–10 min) | [add YouTube link] |
 | D3 | Technical Architecture Document | [add link] |
 | D4 | GitHub Repository (this repo) | https://github.com/moundekaranshika/Zombieshield |
